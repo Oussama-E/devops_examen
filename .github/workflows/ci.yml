@@ -1,4 +1,4 @@
-name: DevOps 01 CI
+name: DevOpsExam 01 CI
 
 on: [push]
   #pull_request:
