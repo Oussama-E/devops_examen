@@ -1,8 +1,8 @@
 name: DevOps 01 CI
 
-on:
-  pull_request:
-    branches: [ main ]
+on: [push]
+  #pull_request:
+    #branches: [ main ]
 
 jobs:
   check_code:
