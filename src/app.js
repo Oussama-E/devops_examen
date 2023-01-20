@@ -18,7 +18,7 @@ try {
         feedbackMessageText = isEmpty(gamerTagValue)
             if(feedbackMessageText== true ) return "Gamer tag cannot be empty"
         feedbackMessageText = isValide(gamerTagValue)
-            if(feedbackMessageText): "Gamer tag is valid";
+            if(feedbackMessageText) return "Gamer tag is valid";
         feedbackMessage.textContent = feedbackMessageText;
     });
 } catch (err) {
